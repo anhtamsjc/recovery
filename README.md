@@ -1,2 +1,2 @@
 # OrangeFox 12.1
-Backup/Recovery (lmi)
+Backup/Recovery K30 pro zoom (lmi)
