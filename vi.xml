@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0"?>
+
+<language>
+	<display>Vietnamese</display>
+
+	<resources>
+		<!-- Font overrides - only change these if your language requires special characters -->
+		<resource name="status" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="bigfont" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="body1" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="body2" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="subhead" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="title" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="mainbutton" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="button" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="menu" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="input_fail" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="splash" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+
+		<resource name="font_l" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="font_m" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="font_s" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="font_b" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+
+		<resource name="keylabel" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="keylabel-bold" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="keylabel-num" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="keylabel-small" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="keylabel-longpress" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		
+		<resource name="Secondary" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="Secondary-title" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="caption" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		
+		<resource name="clock" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		<resource name="info" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+
+		<resource name="fixed" type="fontoverride" filename="Roboto-Medium.ttf" scale="100" />
+		<resource name="orangefont" type="fontoverride" filename="Roboto-Medium.ttf" scale="100"/>
+		
+		<!-- Partition display names -->
+		<string name="system">System</string>
+		<string name="system_image">System Image</string>
+		<string name="vendor">Vendor</string>
+		<string name="vendor_image">Vendor Image</string>
+		<string name="boot">Boot</string>
+		<string name="recovery">Recovery</string>
+		<string name="cache">Cache</string>
+		<string name="data">Data</string>
+		<string name="sdcard">SDCard</string>
+		<string name="internal">Bộ nhớ trong</string>
+		<string name="microsd">Micro SDCard</string>
+		<string name="usbotg">USB OTG</string>
+		<string name="android_secure">Android Bảo mật</string>
+		<string name="dalvik">Dalvik / ART Cache</string>
+		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
+		<string name="sdext">SD-EXT</string>
+		<string name="adopted_data">Adopted Data</string>
+		<string name="adopted_storage">Adopted Storage</string>
+
+		<!-- GUI XML strings -->
+		<string name="twrp_watch_header">OrangeFox %fox_actual_build%</string>
+		<string name="cpu_temp">CPU: %tw_cpu_temp% &#xB0;C</string>
+		<string name="sort_by_name_asc">Tên</string>
+		<string name="sort_by_date_asc">Ngày</string>
+		<string name="sort_by_size_asc">Kích thước</string>
+		<string name="sort_by_name_desc">Tên</string>
+		<string name="sort_by_date_desc">Ngày</string>
+		<string name="sort_by_size_desc">Kích thước</string>
+		<string name="install_btn">Cài đặt</string>
+		<string name="wipe_btn">Xóa</string>
+		<string name="backup_btn">Sao lưu</string>
+		<string name="restore_btn">Khôi phục</string>
+		<string name="mount_btn">Bật các phân vùng</string>
+		<string name="file_manager_btn">Tập tin</string>
+		<string name="advanced_btn">Nâng cao</string>
+		<string name="reboot_btn">Khởi động lại</string>
+		<string name="copy_log_btn">Sao chép nhật ký đến SD</string>
+		<string name="install_zip_hdr">Cài đặt ZIP</string>
+		<string name="install_zip_btn">Cài đặt ZIP</string>
+		<string name="install_image_hdr">Cài đặt *.IMG</string>
+		<string name="install_image_btn">Cài đặt *.IMG</string>
+		<string name="install_select_file_hdr">Chọn tập tin</string>
+		<string name="install_select_file_btn">Chọn tập tin</string>
+		<string name="adb_sideload_btn">ADB &amp; Sideload</string>
+		<string name="select_storage_hdr">Chọn lưu trữ</string>
+		<string name="select_storage_btn">Chọn lưu trữ</string>
+		<string name="queue_hdr">Hàng đợi</string>
+		<string name="raised_clearqueue_btn">Xóa hàng đợi</string>
+		<string name="raised_viewqueue_btn">Xem hàng đợi</string>
+		<string name="zip_queue_count">%tw_zip_queue_count% của tối đa 10 tệp đã được xếp vào hàng đợi</string>
+		<string name="folder">Thư mục</string>
+		<string name="file">Tập tin</string>
+		<string name="zip_sig_chk">Xác minh chữ ký ZIP</string>
+		<string name="inject_twrp_chk">Tích hợp OrangeFox sau khi cài đặt</string>
+		<string name="install_reboot_chk">Khởi động lại sau khi cài đặt hoàn tất</string>
+		<string name="options_hdr">Tùy chọn</string>
+		<string name="zip_queue">Hàng đợi</string>
+		<string name="install_zip_count_hdr">Cài đặt tập tin %tw_zip_index% của %tw_zip_queue_count%</string>
+		<string name="working">Đang làm việc...</string>
+		<string name="failed">Thất bại</string>
+		<string name="successful">Thành công</string>
+		<string name="wipe_cache_btn">Xóa bộ nhớ đệm Caches</string>
+		<string name="reboot_system_btn">Khởi động lại Hệ thống</string>
+		<string name="reboot_recovery_btn">Khởi động lại Khôi phục</string>
+		<string name="install_sel_target">Chọn phân vùng đích</string>
+		<string name="flash_image_select">Phân vùng</string>
+		<string name="flashing_image">Cài đặt tệp ảnh *.IMG...</string>
+		<string name="image_flashed">Đã cài đặt ảnh *.IMG</string>
+		<string name="wipe_cache_dalvik_confirm">Xóa bộ nhớ đệm &amp; Dalvik</string>
+		<string name="wipe_dalvik_confirm">Xóa Dalvik</string>
+		<string name="wiping_cache_dalvik">Xóa bộ nhớ đệm &amp; Dalvik...</string>
+		<string name="wipe_cache_dalvik_complete">Xóa bộ nhớ đệm &amp; Dalvik hoàn tất</string>
+		<string name="cache_dalvik_done">Xóa bộ nhớ đệm &amp; Dalvik hoàn tất</string>
+		<string name="swipe_wipe">Vuốt để xóa</string>
+		<string name="rebooting">Khởi động lại...</string>
+		<string name="swipe_reboot">Vuốt để khởi động lại</string>
+		<string name="confirm_action">Xác nhận Hành động</string>
+		<string name="cancel_btn">Hủy</string>
+		<string name="wipe_hdr">Xóa</string>
+		<string name="factory_reset_hdr">Khôi phục cài đặt gốc</string>
+		<string name="factory_reset1">Xóa Data, Cache, và Dalvik</string>
+		<string name="factory_reset2">(không bao gồm bộ nhớ trong)</string>
+		<string name="factory_reset3">Thông thường đây là</string>
+		<string name="factory_reset4">thao tác duy nhất bạn cần.</string>
+		<string name="factory_reset5">(Không bao gồm người dùng/màn hình khóa)</string>
+		<string name="factory_resetting">Đặt lại về mặc định nhà sản xuất......</string>
+		<string name="advanced_wipe_hdr">Xóa nâng cao</string>
+		<string name="advanced_wipe_btn">Xóa nâng cao</string>
+		<string name="wipe_enc_confirm">Xóa Mã hóa khỏi Dữ liệu</string>
+		<string name="formatting_data">Đang định dạng Dữ liệu...</string>
+		<string name="swipe_format_data">Vuốt để định dạng Dữ liệu</string>
+		<string name="factory_reset_complete">Đặt lại về mặc định nhà sản xuất hoàn tất</string>
+		<string name="sel_part_hdr">Chọn phân vùng</string>
+		<string name="wipe_sel_confirm">Xóa các phân vùng đã chọn</string>
+		<string name="wiping_part">Đang xóa Phân vùng...</string>
+		<string name="wipe_complete">Xóa hoàn tất</string>
+		<string name="format_data_hdr">Định dạng Dữ liệu</string>
+		<string name="format_data_btn">Định dạng Dữ liệu</string>
+		<string name="format_data_ptr1">Định dạng Dữ liệu sẽ xóa tất cả ứng dụng,</string>
+		<string name="format_data_ptr2">bản sao lưu, hình ảnh, video, phương tiện, và</string>
+		<string name="format_data_ptr3">loại bỏ mã hóa trên bộ nhớ trong.</string>
+		<string name="format_data_adopted">Bao gồm Bộ nhớ được chấp nhận</string>
+		<string name="format_data_undo">Điều này không thể hoàn tác.</string>
+		<string name="format_data_complete">Định dạng Dữ liệu hoàn tất</string>
+		<!-- Translator note: the word "yes" must remain English! -->
+		<string name="yes_continue">Gõ "yes" để xác nhận.</string>
+		<string name="part_opt_hdr">Thông tin phân vùng</string>
+		<string name="file_sys_opt">Tùy chọn phân vùng</string>
+		<string name="part_mount_point">Điểm bật phân vùng</string>
+		<string name="part_curr_fs">Hệ thống tệp</string>
+		<string name="part_present">Hiện tại</string>
+		<string name="part_removable">Có thể tháo rời</string>
+		<string name="part_yes">Có</string>
+		<string name="part_no">Không</string>
+		<string name="part_size">Kích thước</string>
+		<string name="part_used">Đã sử dụng</string>
+		<string name="part_free">Còn trống</string>
+		<string name="part_backup_size">Kích thước sao lưu</string>
+		<string name="resize_btn">Thay đổi kích thước hệ thống tệp</string>
+		<string name="resize_confirm">Thay đổi kích thước phân vùng</string>
+		<string name="resizing">Đang thay đổi kích thước...</string>
+		<string name="resize_complete">Thay đổi kích thước hoàn tất</string>
+		<string name="swipe_resize">Vuốt để thay đổi kích thước</string>
+		<string name="repair_btn">Sửa chữa hệ thống tệp</string>
+		<string name="repair_confirm">Sửa chữa phân vùng</string>
+		<string name="repairing">Đang sửa chữa...</string>
+		<string name="repair_complete">Sửa chữa hoàn tất</string>
+		<string name="swipe_repair">Vuốt để sửa chữa</string>
+		<string name="change_fs_btn">Thay đổi hệ thống tệp</string>
+		<string name="change_fs_warn1">Một số ROM hoặc kernel có thể không hỗ trợ</string>
+		<string name="change_fs_warn2">một số hệ thống tệp. Tiến hành cẩn thận!</string>
+		<string name="change_fs_confirm">Thay đổi hệ thống tệp sang</string>
+		<string name="formatting">Đang định dạng...</string>
+		<string name="format_complete">Định dạng hoàn tất</string>
+		<string name="swipe_change_fs">Vuốt để thay đổi</string>
+		<string name="back_btn">Quay lại</string>
+		<string name="wipe_enc_btn">Xóa mã hóa</string>
+		<string name="swipe_factory_reset">Vuốt để đặt lại máy về cài đặt gốc</string>
+		<string name="backup_hdr">Sao lưu</string>
+		<string name="encryption_hdr">Bật mã hóa</string>
+		<string name="name">Tên</string>
+		<string name="enable_backup_comp_chk">Bật nén khi sao lưu</string>
+		<string name="skip_md5_backup_chk">Bỏ qua tạo MD5 khi sao lưu</string>
+		<string name="disable_backup_space_chk">Bỏ kiểm tra mã trước khi sao lưu</string>
+		<string name="swipe_backup">Vuốt để sao lưu</string>
+		<string name="backup_name_exists">Sao lưu với tên này đã tồn tại!</string>
+		<string name="pass_not_match">Mật khẩu không khớp!</string>
+		<string name="partitions">Phân vùng</string>
+		<string name="progress">Tiến trình</string>
+		<string name="backup_complete">Sao lưu hoàn tất</string>
+		<string name="restore_hdr">Sao lưu</string>
+		<string name="restore_backup_hdr">Khôi phục sao lưu</string>
+		<string name="sel_backup_hdr">Chọn sao lưu</string>
+		<string name="restore_dec_fail">Mật khẩu sai, vui lòng thử lại!</string>
+		<string name="del_backup_confirm">Xóa sao lưu</string>
+		<string name="del_backup_confirm2">Điều này không thể hoàn tác!</string>
+		<string name="deleting_backup">Đang xóa sao lưu...</string>
+		<string name="backup_deleted">Sao lưu đã bị xóa</string>
+		<string name="swipe_delete">Vuốt để xóa</string>
+		<string name="restore_backup_date">Ngày sao lưu</string>
+		<string name="restore_md5_chk">Kiểm tra MD5 của các tệp sao lưu</string>
+		<string name="restore_enable_md5_chk">Bật xác minh MD5 của các tệp sao lưu</string>
+		<string name="restore_complete">Khôi phục hoàn tất</string>
+		<string name="swipe_restore">Vuốt để khôi phục</string>
+		<string name="rename_backup_hdr">Đổi tên sao lưu</string>
+		<string name="rename_backup_confirm">Đổi tên sao lưu</string>
+		<string name="rename_backup_confirm2">Điều này không thể hoàn tác!</string>
+		<string name="renaming_backup">Đang đổi tên sao lưu...</string>
+		<string name="rename_backup_complete">Đổi tên sao lưu hoàn tất</string>
+		<string name="swipe_to_rename">Vuốt để đổi tên</string>
+		<string name="mount_hdr">Bật các phân vùng</string>
+		<string name="mount_sys_ro_chk">Gắn system-vendor ở chế độ chỉ đọc</string>
+		<string name="decrypt_data_btn">Giải mã dữ liệu</string>
+		<string name="disable_mtp_btn">Tắt MTP</string>
+		<string name="enable_mtp_btn">Bật MTP</string>
+		<string name="usb_storage_hdr">Lưu trữ USB</string>
+		<string name="usb_storage_btn">Lưu trữ USB</string>
+		<string name="usb_stor_mnt1">Lưu trữ USB đã được gắn</string>
+		<string name="usb_stor_mnt2">Hãy chắc chắn tháo thiết bị an toàn</string>
+		<string name="usb_stor_mnt3">khỏi máy tính trước khi tháo!</string>
+		<string name="unmount_btn">Tắt phân vùng</string>
+		<string name="rb_system_btn">Hệ thống</string>
+		<string name="rb_poweroff_btn">Tắt máy</string>
+		<string name="rb_recovery_btn">Khôi phục</string>
+		<string name="rb_bootloader_btn">Bootloader</string>
+		<string name="rb_theme">Giao diện</string>
+		<string name="rb_download_btn">Tải xuống</string>
+		<string name="rb_edl_btn">Edl</string>
+		<string name="turning_off">Đang tắt...</string>
+		<string name="swipe_power_off">Vuốt để tắt nguồn</string>
+		<string name="sys_ro">Phân vùng hệ thống</string>
+		<string name="sys_ro_hdr">Phân vùng hệ thống chưa sửa đổi</string>
+		<string name="sys_rop1">OrangeFox có thể giữ phân vùng hệ thống của bạn</string>
+		<string name="sys_rop2">chưa sửa đổi để dễ dàng nhận cập nhật chính thức.</string>
+		<string name="sys_rop2a">OrangeFox sẽ không thể ngăn ROM gốc thay thế OrangeFox.</string>
+		<string name="sys_rop3">Các cài đặt ZIP hoặc thao tác ADB</string>
+		<string name="sys_rop4">vẫn có thể sửa đổi phân vùng hệ thống.</string>
+		<string name="sys_rop5">Các thao tác này có thể gây thay đổi phân vùng hệ thống.</string>
+		<string name="sys_rop6">Cần chú ý khi thực hiện.</string>
+		<string name="sys_ro_never_show_chk">Không hiển thị lại màn hình này</string>
+		<string name="sys_ro_keep_ro_btn">Giữ chế độ chỉ đọc</string>
+		<string name="swipe_allow_mod">Vuốt để cho phép sửa đổi</string>
+		<string name="settings_hdr">Cài đặt</string>
+		<string name="settings_cptn">Chung</string>
+		<string name="use_rmrf_chk">Sử dụng rm-rf thay vì định dạng</string>
+		<string name="use24clock_chk">Sử dụng đồng hồ 24 giờ</string>
+		<string name="rev_navbar_chk">Đảo ngược giao diện navbar</string>
+		<string name="simact_chk">Mô phỏng các hành động cho việc thử nghiệm giao diện</string>
+		<string name="simfail_chk">Mô phỏng lỗi cho các hành động</string>
+		<string name="sel_tz_list">Múi giờ</string>
+		<string name="dialog_reset_theme_hdr">Cài lại mặc định</string>
+		<!-- Translator note: if it does not make sense to translate the locations or if it makes more sense,
+				feel free to change the location listed or drop the location entirely and just call it UTC -6 -->
+		<string name="utcm11">(UTC -11) Samoa, Quần đảo Midway</string>
+		<string name="utcm10">(UTC -10) Hawaii</string>
+		<string name="utcm9">(UTC -9) Alaska</string>
+		<string name="utcm8">(UTC -8) Giờ Thái Bình Dương</string>
+		<string name="utcm7">(UTC -7) Giờ Bắc Mỹ</string>
+		<string name="utcm6">(UTC -6) Giờ Trung Mỹ</string>
+		<string name="utcm5">(UTC -5) Giờ Đông Bắc Mỹ</string>
+		<string name="utcm4">(UTC -4) Giờ Đại Tây Dương</string>
+		<string name="utcm3">(UTC -3) Brazil, Buenos Aires</string>
+		<string name="utcm2">(UTC -2) Trung Đại Tây Dương</string>
+		<string name="utcm1">(UTC -1) Azores, Cape Verde</string>
+		<string name="utc0">(UTC  0) London, Dublin, Lisbon</string>
+		<string name="utcp1">(UTC +1) Berlin, Brussels, Paris</string>
+		<string name="utcp2">(UTC +2) Athens, Istanbul, Nam Phi</string>
+		<string name="utcp3">(UTC +3) Moscow, Baghdad</string>
+		<string name="utcp4">(UTC +4) Abu Dhabi, Tbilisi, Muscat</string>
+		<string name="utcp5">(UTC +5) Yekaterinburg, Islamabad</string>
+		<string name="utcp6">(UTC +6) Almaty, Dhaka, Colombo</string>
+		<string name="utcp7">(UTC +7) Bangkok, Hà Nội, Jakarta</string>
+		<string name="utcp8">(UTC +8) Bắc Kinh, Singapore, Hồng Kông</string>
+		<string name="utcp9">(UTC +9) Tokyo, Seoul, Yakutsk</string>
+		<string name="utcp10">(UTC +10) Đông Úc, Guam</string>
+		<string name="utcp11">(UTC +11) Vladivostok, Quần đảo Solomon</string>
+		<string name="utcp12">(UTC +12) Auckland, Wellington, Fiji</string>
+		<string name="tz_offset_hdr">Chênh lệch thời gian</string>	
+		<string name="tz_offset">Chênh lệch</string>
+		<string name="sel_tz_offset">Chọn Độ chênh lệch (thường là 0): %tw_time_zone_guioffset%</string>
+		<string name="tz_offset_0">0</string>
+		<string name="tz_offset_15">15</string>
+		<string name="tz_offset_30">30</string>
+		<string name="tz_offset_45">45</string>
+		<string name="use_dst_chk">Sử dụng giờ mùa hè (DST)</string>
+		<string name="curr_tz">Múi giờ hiện tại: %tw_time_zone%</string>
+		<string name="curr_tz_s">Múi giờ hiện tại:</string>
+		<string name="set_tz_btn">Cài đặt múi giờ</string>
+		<string name="settings_screen_cptn">Cài đặt màn hình</string>
+		<string name="settings_screen_timeout_cptn">Thời gian chờ tắt màn hình đã tắt</string>
+		<string name="settings_screen_timeout_cptn2">Thời gian chờ:</string>
+		<string name="timeout_unit">giây</string>
+		<string name="enable_timeout_chk">Bật thời gian chờ màn hình</string>
+		<string name="screen_to_na">Cài đặt thời gian chờ màn hình không khả dụng</string>
+		<string name="rotation_chk">Xoay màn hình</string>
+		<string name="screen_bright_slider">Độ sáng: %tw_brightness_pct%%</string>
+		<string name="screen_bright_na">Cài đặt độ sáng không khả dụng</string>
+		<string name="vibration_hdr">Chế độ rung</string>
+		<string name="button_vibration_hdr">Phím rung đã Tắt</string>
+		<string name="kb_vibration_hdr">Rung bàn phím đã Tắt</string>
+		<string name="act_vibration_hdr">Hành động rung đã Tắt</string>
+		<string name="button_vibration">Phím rung:</string>
+		<string name="kb_vibration">Rung bàn phím:</string>
+		<string name="act_vibration">Hành động rung:</string>
+		<string name="advanced_hdr">Nâng cao</string>
+		<string name="copy_log_confirm">Sao chép nhật ký vào thẻ SD</string>
+		<string name="copying_log">Đang sao chép nhật ký vào thẻ SD...</string>
+		<string name="copy_log_complete">Sao chép nhật ký hoàn tất</string>
+		<string name="terminal_btn">Cửa sổ lệnh</string>
+		<string name="dumlock_note1">Để biết thông tin về cách hoạt động</string>
+		<string name="dumlock_note2">của HTC Dumlock, vui lòng xem:</string>
+		<string name="inject_twrp_btn">Tích hợp OrangeFox</string>
+		<string name="inject_twrp_confirm">Tích hợp lại OrangeFox</string>
+		<string name="injecting_twrp">Đang Tích hợp lại OrangeFox...</string>
+		<string name="inject_twrp_complete">Tích hợp OrangeFox hoàn tất</string>
+		<string name="swipe_to_confirm">Vuốt để xác nhận</string>
+		<string name="part_sd_hdr">Phân vùng SD</string>
+		<string name="rem_sd">Lưu trữ có thể tháo rời</string>
+		<string name="rem_sd_sel">Chọn thiết bị có thể tháo rời!</string>
+		<string name="invalid_partsd_sel">Bạn phải chọn một thiết bị có thể tháo rời</string>
+		<string name="part_sd_lose">Bạn sẽ mất tất cả các tệp trên thẻ SD!</string>
+		<string name="part_sdcard_sel_note_1">Phân vùng sẽ xóa tất cả các tệp</string>
+		<string name="part_sdcard_sel_note_2">trên thẻ SD của bạn!</string>
+		<string name="part_sd_undo">Hành động này không thể hoàn tác!</string>
+		<string name="part_sd_ext_sz">Kích thước EXT:</string>
+		<string name="btn_flat_ext4">EXT4</string>
+		<string name="btn_flat_ext3">EXT3</string>
+		<string name="btn_flat_more">+</string>
+		<string name="btn_flat_less">-</string>
+		<string name="part_sd_swap_sz">Kích thước Swap:</string>
+		<string name="file_system">Hệ thống tệp:</string>
+		<string name="swipe_part_sd">Vuốt để phân vùng</string>
+		<string name="partitioning_sd">Đang phân vùng thẻ SD...</string>
+		<string name="partitioning_sd2">Việc này sẽ mất vài phút.</string>
+		<string name="part_sd_complete">Phân vùng hoàn tất</string>
+		<string name="dumlock_hdr">HTC Dumlock</string>
+		<string name="dumlock_restore_btn">Khôi phục Boot gốc</string>
+		<string name="dumlock_restore_confirm">Khôi phục hình ảnh boot gốc</string>
+		<string name="dumlock_restoring">Đang khôi phục Boot gốc...</string>
+		<string name="dumlock_restore_complete">Khôi phục Boot gốc hoàn tất</string>
+		<string name="dumlock_reflash_btn">Tải lại Recovery</string>
+		<string name="dumlock_reflash_confirm">Tải lại recovery vào boot</string>
+		<string name="dumlock_reflashing">Đang tải lại recovery vào boot...</string>
+		<string name="dumlock_reflash_complete">Tải lại recovery vào boot hoàn tất</string>
+		<string name="dumlock_install_btn">Cài đặt Dumlock</string>
+		<string name="dumlock_install_confirm">Cài đặt các tệp HTC dumlock vào ROM</string>
+		<string name="dumlock_installing">Đang cài đặt HTC Dumlock...</string>
+		<string name="dumlock_install_complete">Cài đặt HTC Dumlock hoàn tất</string>
+		<string name="swipe_to_unlock">Vuốt để mở khóa</string>
+		<string name="fm_actions">Hành động</string>
+		<string name="fm_hdr">Tệp</string>
+		<string name="fm_sel_file">Chọn tệp hoặc thư mục</string>
+		<string name="fm_type_folder">Thư mục</string>
+		<string name="fm_type_file">Tệp</string>
+		<string name="fm_copy_btn">Sao chép</string>
+		<string name="fm_copying">Đang sao chép</string>
+		<string name="fm_move_btn">Di chuyển</string>
+		<string name="fm_moving">Đang di chuyển</string>
+		<string name="fm_chmod755_btn">Đặt 755</string>
+		<string name="fm_chmod755ing">Đặt 755</string>
+		<string name="fm_chmod644_btn">Đặt 644</string>
+		<string name="fm_chmod644ing">Đặt 644</string>
+		<string name="fm_chmod_btn">Đặt quyền truy cập</string>
+		<string name="fm_delete_btn">Xóa</string>
+		<string name="fm_deleting">Đang xóa</string>
+		<string name="fm_rename_btn">Đổi tên</string>
+		<string name="fm_renaming">Đang đổi tên</string>
+		<string name="fm_sel_dest">Thư mục đích</string>
+		<string name="fm_rename_hdr">Đổi tên</string>
+		<string name="fm_set_perms_hdr">Đặt quyền truy cập</string>
+		<string name="fm_perms">Quyền truy cập</string>
+		<string name="fm_complete">Hoàn tất thao tác tệp</string>
+		<string name="decrypt">Giải mã</string>
+		<string name="data_part">Phân vùng Dữ liệu</string>
+		<string name="encrypt_data_part">Phân vùng Dữ liệu đã mã hóa</string>
+		<string name="sel_encrypt_backup">Bạn đã chọn sao lưu mã hóa.</string>
+		<string name="decrypt_data_enter_note1">Vui lòng nhập mật khẩu hoặc</string>
+		<string name="decrypt_data_enter_note1a">Vui lòng nhập mẫu hoặc</string>
+		<string name="decrypt_data_enter_note2">nhấn nút quay lại để hủy.</string>
+		<string name="decrypt_data_enter_pass">Nhập mật khẩu</string>
+		<string name="decrypt_data_failed_pattern">Mẫu không đúng!</string>
+		<string name="decrypt_try_again">Vui lòng thử lại.</string>
+		<string name="decrypt_data_enter_pattern">Nhập mẫu.</string>
+		<string name="decrypt_data_trying">Đang thử giải mã</string>
+		<string name="term_s_hdr">Cửa sổ lệnh</string>
+		<string name="adb_sideload_hdr">ADB Sideload</string>
+		<string name="sideload_wipe_dalvik_chk">Xóa Dalvik Cache</string>
+		<string name="sideload_wipe_cache_chk">Xóa Cache</string>
+		<string name="swipe_to_sideload">Vuốt để bắt đầu Sideload</string>
+		<string name="sideload_confirm">ADB Sideload</string>
+		<string name="sideload_usage">Cách sử dụng: ADB SideLoad Tệp.ZIP</string>
+		<string name="sideload_complete">ADB Sideload hoàn tất</string>
+		<string name="fix_contexts_hdr">Sửa chữa Contexts</string>
+		<string name="fix_contexts_confirm">Sửa chữa SELinux contexts</string>
+		<string name="fix_contexts_note1">Lưu ý: Sửa chữa contexts hiếm khi cần thiết.</string>
+		<string name="fix_contexts_note2">Sửa chữa SELinux contexts có thể khiến</string>
+		<string name="fix_contexts_note3">thiết bị của bạn không khởi động đúng cách.</string>
+		<string name="swipe_to_fix_contexts">Vuốt để sửa chữa Contexts</string>
+		<string name="fixing_contexts">Đang sửa chữa Contexts...</string>
+		<string name="fix_contexts_complete">Sửa chữa Contexts hoàn tất</string>
+		<string name="reboot_hdr">Khởi động lại</string>
+		<string name="sel_storage_list">Chọn Lưu trữ</string>
+		<string name="ok_btn">OK</string>
+		<string name="install_twrp_ramdisk">Cài đặt Ramdisk Recovery</string>
+		<string name="install_kernel">Cài đặt Kernel</string>
+		<string name="repack_backup_first">Sao lưu ảnh hiện tại trước</string>
+		<string name="installing">Đang cài đặt...</string>
+		<string name="install_complete">Cài đặt hoàn tất</string>
+		<string name="decrypt_users">Giải mã người dùng</string>
+		<string name="backup_storage_undecrypt_warning">Sao lưu không bao gồm một số tệp của người dùng {1}, vì người dùng chưa được giải mã.</string>
+		<string name="decrypting_user_fbe">Đang cố gắng giải mã FBE cho người dùng {1}...</string>
+		<string name="decrypt_user_success_fbe">Giải mã người dùng {1} thành công</string>
+		<string name="decrypt_user_fail_fbe">Giải mã người dùng {1} thất bại</string>
+		<string name="decrypt_data_user">Người dùng đã chọn</string>
+		<string name="data_users">Người dùng</string>
+
+		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
+		<string name="no_kernel_selinux">Kernel không hỗ trợ đọc bối cảnh SELinux.</string>
+		<string name="full_selinux">Hỗ trợ SELinux đầy đủ có mặt.</string>
+		<string name="no_selinux">Không có hỗ trợ SELinux (không có libselinux).</string>
+		<string name="mtp_enabled">MTP đã được kích hoạt</string>
+		<string name="mtp_disabled">MTP đã bị tắt</string>
+		<string name="mtp_crash">MTP đã gặp sự cố, không khởi động MTP khi khởi động lại.</string>
+		<string name="decrypt_success">Giải mã thành công với mật khẩu mặc định.</string>
+		<string name="unable_to_decrypt">Không thể giải mã với mật khẩu mặc định. Bạn có thể cần phải thực hiện Format Data.</string>
+		<string name="generating_md51">Đang tạo MD5</string>
+		<!-- Message displayed during a backup if we are generating an MD5, ideally, leave the leading " * " to help align and separate this text from other console text -->
+		<string name="generating_md52"> * Đang tạo md5...</string>
+		<string name="md5_created"> * MD5 đã được tạo.</string>
+		<string name="md5_error"> * Lỗi MD5!</string>
+		<string name="md5_compute_error"> * Lỗi khi tính toán MD5.</string>
+		<string name="current_date">(Ngày hiện tại)</string>
+		<string name="auto_generate">(Tự động tạo)</string>
+		<string name="unable_to_locate_partition">Không thể tìm thấy phân vùng '{1}' để tính toán sao lưu.</string>
+		<string name="no_partition_selected">Chưa chọn phân vùng để sao lưu.</string>
+		<string name="total_partitions_backup"> * Tổng số phân vùng cần sao lưu: {1}</string>
+		<string name="total_backup_size"> * Tổng kích thước dữ liệu: {1}MB</string>
+		<string name="available_space"> * Dung lượng còn trống: {1}MB</string>
+		<string name="unable_locate_storage">Không thể tìm thấy thiết bị lưu trữ.</string>
+		<string name="no_space">Không đủ dung lượng trống trên thiết bị lưu trữ.</string>
+		<string name="backup_started">[BẮT ĐẦU SAO LƯU]</string>
+		<string name="backup_folder"> * Thư mục sao lưu: {1}</string>
+		<string name="fail_backup_folder">Không thể tạo thư mục sao lưu.</string>
+		<string name="avg_backup_fs">Tốc độ sao lưu trung bình cho các hệ thống tệp: {1} MB/giây</string>
+		<string name="avg_backup_img">Tốc độ sao lưu trung bình cho các ổ đĩa hình ảnh: {1} MB/giây</string>
+		<string name="total_backed_size">[{1} MB ĐÃ ĐƯỢC SAO LƯU]</string>
+		<string name="backup_completed">[SAO LƯU HOÀN TẤT TRONG {1} GIÂY]</string>
+		<string name="restore_started">[KHỞI ĐỘNG PHỤC HỒI]</string>
+		<string name="restore_folder">Thư mục phục hồi: '{1}'</string>
+		<!-- {1} is the partition display name and {2} is the number of seconds -->
+		<string name="restore_part_done">[{1} đã xong ({2} giây)]</string>
+		<string name="verifying_md5">Đang kiểm tra MD5</string>
+		<string name="skip_md5">Bỏ qua kiểm tra MD5 theo cài đặt của người dùng.</string>
+		<string name="calc_restore">Đang tính toán chi tiết phục hồi...</string>
+		<string name="restore_read_only">Không thể phục hồi {1} -- được gắn chỉ đọc.</string>
+		<string name="restore_unable_locate">Không thể tìm thấy phân vùng '{1}' để phục hồi.</string>
+		<string name="no_part_restore">Không có phân vùng nào được chọn để phục hồi.</string>
+		<string name="restore_part_count">Đang phục hồi {1} phân vùng...</string>
+		<string name="total_restore_size">Tổng kích thước phục hồi là {1}MB</string>
+		<string name="updating_system_details">Đang cập nhật chi tiết hệ thống</string>
+		<string name="restore_completed">[PHỤC HỒI HOÀN TẤT TRONG {1} GIÂY]</string>
+		<!-- {1} is the path we could not open, {2} is strerror output -->				
+		<string name="error_opening_strerr">Lỗi mở: '{1}' ({2})</string>
+		<string name="unable_locate_part_backup_name">Không thể tìm phân vùng theo tên sao lưu: '{1}'</string>
+		<string name="unable_find_part_path">Không thể tìm phân vùng cho đường dẫn '{1}'</string>
+		<string name="update_part_details">Đang cập nhật chi tiết phân vùng...</string>
+		<string name="update_part_details_done">...hoàn tất</string>
+		<string name="wiping_dalvik">Đang xóa thư mục Dalvik...</string>
+		<string name="cleaned">Đã xóa: {1}...</string>
+		<string name="dalvik_done">Xóa thư mục Dalvik Cache hoàn tất!</string>
+		<string name="no_andsec">Không tìm thấy phân vùng android secure.</string>
+		<string name="unable_to_locate">Không thể tìm thấy {1}.</string>
+		<string name="wiping_datamedia">Đang xóa bộ nhớ trong -- /data/media...</string>
+		<string name="unable_to_mount">Không thể gắn {1}</string>
+		<string name="unable_to_mount_internal">Không thể gắn internal_storage</string>
+		<string name="unable_to_mount_storage">Không thể gắn bộ nhớ</string>
+		<string name="fail_decrypt">Không thể giải mã dữ liệu.</string>
+		<string name="no_crypto_support">Không có hỗ trợ mã hóa trong bản dựng này.</string>
+		<string name="decrypt_success_dev">Dữ liệu đã được giải mã thành công, thiết bị khối mới: '{1}'</string>
+		<string name="done">Hoàn tất</string>
+		<string name="start_partition_sd">Đang phân vùng thẻ SD...</string>
+		<string name="partition_sd_locate">Không thể tìm thấy thiết bị để phân vùng.</string>
+		<string name="ext_swap_size">Kích thước EXT + Swap lớn hơn kích thước thẻ SD.</string>
+		<string name="remove_part_table">Đang xóa bảng phân vùng...</string>
+		<string name="unable_rm_part">Không thể xóa bảng phân vùng.</string>
+		<string name="create_part">Đang tạo phân vùng {1}...</string>
+		<string name="unable_to_create_part">Không thể tạo phân vùng {1}.</string>
+		<string name="format_sdext_as">Đang định dạng sd-ext là {1}...</string>
+		<string name="part_complete">Hoàn thành phân vùng.</string>
+		<string name="unable_to_open">Không thể mở '{1}'.</string>
+		<string name="mtp_already_enabled">MTP đã được bật</string>
+		<string name="mtp_fail">Không thể bật MTP</string>
+		<string name="no_mtp">Không có hỗ trợ MTP</string>
+		<string name="mtp_base_path_missing">Không tìm thấy bộ nhớ phương tiện. Không thể bật MTP.</string>
+		<string name="image_flash_start">[BẮT ĐẦU FLASH ẢNH]</string>
+		<string name="img_to_flash">Ảnh để flash: '{1}'</string>
+		<string name="flash_unable_locate">Không thể tìm phân vùng '{1}' để flash.</string>
+		<string name="no_part_flash">Không có phân vùng nào được chọn để flash.</string>
+		<string name="too_many_flash">Quá nhiều phân vùng được chọn để flash.</string>
+		<string name="invalid_flash">Phân vùng flash không hợp lệ.</string>
+		<string name="flash_done">[FLASH ẢNH HOÀN TẤT]</string>
+		<string name="wiping">Xóa {1}</string>
+		<string name="repair_not_exist">{1} không tồn tại! Không thể sửa chữa!</string>
+		<string name="repairing_using">Đang sửa chữa {1} bằng {2}...</string>
+		<string name="unable_repair">Không thể sửa chữa {1}.</string>
+		<string name="mount_data_footer">Không thể gắn /data và không tìm thấy crypto footer.</string>
+		<!-- {1} is the folder name that we could not create, {2} is strerror output -->
+		<string name="create_folder_strerr">Không thể tạo '{1}' thư mục ({2}).</string>
+		<!-- {1} is the folder name that we could not mount, {2} is strerror output -->
+		<string name="fail_mount">Không thể bật phân vùng '{1}' ({2})</string>
+		<!-- {1} is the folder name that we could not unmount, {2} is strerror output -->
+		<string name="fail_unmount">Không thể gỡ bật phân vùng '{1}' ({2})</string>
+		<string name="cannot_resize">Không thể thay đổi kích thước {1}.</string>
+		<string name="repair_resize">Đang sửa chữa {1} trước khi thay đổi kích thước.</string>
+		<string name="unable_resize">Không thể thay đổi kích thước {1}.</string>
+		<string name="no_md5_found">Không tìm thấy tệp md5 cho '{1}'. Vui lòng bỏ chọn Xác minh MD5 để khôi phục.</string>
+		<string name="md5_fail_match">MD5 không khớp với '{1}'.</string>
+		<string name="fail_decrypt_tar">Không thể giải mã tệp tar '{1}'</string>
+		<string name="format_data_msg">Bạn có thể cần khởi động lại recovery để có thể sử dụng lại /data.</string>
+		<string name="format_data_err">Không thể định dạng để loại bỏ mã hóa.</string>
+		<string name="formatting_using">Đang định dạng {1} bằng {2}...</string>
+		<string name="unable_to_wipe">Không thể xóa {1}.</string>
+		<string name="cannot_wipe">Không thể xóa phân vùng {1}.</string>
+		<string name="remove_all">Đang xóa tất cả các tệp dưới '{1}'</string>
+		<string name="wiping_data">Đang xóa dữ liệu mà không xóa /data/media ...</string>
+		<string name="backing_up">Đang sao lưu {1}...</string>
+		<string name="backing">Đang sao lưu</string>
+		<string name="backup_size">Kích thước tệp sao lưu cho '{1}' là 0 byte.</string>
+		<string name="datamedia_fs_restore">CẢNH BÁO: Sao lưu /data này được tạo với hệ thống tệp {1}! Sao lưu có thể không khởi động trừ khi bạn thay đổi lại thành {1}.</string>
+		<string name="restoring">Đang khôi phục {1}...</string>
+		<string name="restoring_hdr">Đang khôi phục...</string>
+		<string name="recreate_folder_err">Không thể tái tạo thư mục {1}.</string>
+		<string name="img_size_err">Kích thước ảnh lớn hơn thiết bị mục tiêu</string>
+		<string name="flashing">Đang flash {1}...</string>
+		<string name="backup_folder_set">Thư mục sao lưu đã được thiết lập thành '{1}'</string>
+		<string name="locate_backup_err">Không thể tìm thấy sao lưu '{1}'</string>
+		<string name="set_restore_opt">Đang thiết lập các tùy chọn khôi phục: '{1}':</string>
+		<string name="md5_check_skip">Bỏ qua kiểm tra MD5 đang bật</string>
+		<string name="ors_encrypt_restore_err">Không thể sử dụng OpenRecoveryScript để khôi phục sao lưu đã mã hóa.</string>
+		<string name="mounting">Đang bật phân vùng</string>
+		<string name="unmounting">Đang vô hiệu phân vùng</string>
+		<string name="mounted">Đã bật phân vùng '{1}'</string>
+		<string name="unmounted">Đã vô hiệu phân vùng '{1}'</string>
+		<string name="setting">Đang thiết lập '{1}' thành '{2}'</string>
+		<string name="setting_empty">Đang thiết lập '{1}' thành trống</string>
+		<string name="making_dir1">Đang tạo thư mục</string>
+		<string name="making_dir2">Đang tạo thư mục: '{1}'</string>
+		<string name="running_command">Đang chạy lệnh</string>
+		<string name="sideload">ADB Sideload</string>
+		<string name="start_sideload">Đang khởi động tính năng ADB sideload...</string>
+		<string name="need_new_adb">Bạn cần adb 1.0.32 hoặc phiên bản mới hơn để sideload vào thiết bị này.</string>
+		<string name="no_pwd">Không có mật khẩu được cung cấp.</string>
+		<string name="done_ors">Hoàn thành xử lý tệp script</string>
+		<string name="injecttwrp">Tích hợp OrangeFox vào ảnh boot...</string>
+		<string name="zip_err">Lỗi khi cài đặt tệp ZIP '{1}'</string>
+		<string name="installing_zip">Đang cài đặt tệp ZIP '{1}'</string>
+		<string name="select_backup_opt">Đang thiết lập các tùy chọn sao lưu:</string>
+		<string name="compression_on">Nén đang bật</string>
+		<string name="md5_off">Tạo MD5 đã tắt</string>
+		<string name="backup_fail">Sao lưu thất bại</string>
+		<string name="backup_clean">Sao lưu thất bại. Đang dọn dẹp thư mục sao lưu.</string>
+		<string name="running_recovery_commands">Đang chạy lệnh Recovery</string>
+		<string name="recovery_commands_complete">Lệnh Recovery đã hoàn thành</string>
+		<string name="running_ors">Đang chạy OpenRecoveryScript</string>
+		<string name="ors_complete">OpenRecoveryScript đã hoàn thành</string>
+		<string name="no_updater_binary">Không thể tìm thấy '{1}' trong tệp ZIP.</string>
+		<string name="check_for_md5">Đang kiểm tra tệp MD5...</string>
+		<string name="fail_sysmap">Không thể ánh xạ tệp '{1}'</string>
+		<string name="verify_zip_sig">Đang xác minh chữ ký ZIP...</string>
+		<string name="verify_zip_fail">Xác minh chữ ký ZIP thất bại!</string>
+		<string name="verify_zip_done">Chữ ký ZIP đã được xác minh thành công.</string>
+		<string name="zip_corrupt">Tệp ZIP bị hỏng!</string>
+		<string name="no_md5">Bỏ qua kiểm tra MD5: không tìm thấy tệp MD5</string>
+		<string name="md5_fail">MD5 không khớp</string>
+		<string name="md5_match">MD5 khớp</string>
+		<string name="pid_signal">{1} quá trình kết thúc với tín hiệu: {2}</string>
+		<string name="pid_error">{1} quá trình kết thúc với LỖI: {2}</string>
+		<string name="install_dumlock">Đang cài đặt HTC Dumlock vào hệ thống...</string>
+		<string name="dumlock_restore">Đang khôi phục ảnh boot gốc...</string>
+		<string name="dumlock_reflash">Đang flash lại recovery vào boot...</string>
+		<string name="run_script">Đang chạy script {1}...</string>
+		<string name="split_backup">Đang chia tệp sao lưu thành nhiều kho lưu trữ...</string>
+		<string name="backup_error">Lỗi khi tạo sao lưu.</string>
+		<string name="restore_error">Lỗi trong quá trình khôi phục.</string>
+		<string name="split_thread">Đang chia thread ID {1} thành kho lưu trữ {2}</string>
+		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->					
+		<string name="file_progress">%llu trong tổng số %llu tệp, %i%%</string>
+		<string name="size_progress">%lluMB trong tổng số %lluMB, %i%%</string>
+		<string name="decrypt_cmd">Đang thử giải mã phân vùng dữ liệu qua dòng lệnh.</string>
+		<string name="base_pkg_err">Không thể tải các gói cơ bản.</string>
+		<string name="simulating">ĐANG MÔ PHỎNG CÁC HÀNH ĐỘNG</string>
+		<string name="backup_cancel">Sao lưu đã bị hủy</string>
+		<string name="config_twrp">Đang cấu hình OrangeFox...</string>
+		<string name="config_twrp_err">Không thể cấu hình OrangeFox với kernel này.</string>
+		<string name="copy_log">Đã sao chép nhật ký recovery vào {1}.</string>
+		<string name="max_queue">Đã đạt đến giới hạn hàng đợi ZIP tối đa!</string>
+		<string name="min_queue">Đã đạt đến giới hạn hàng đợi ZIP tối thiểu!</string>
+		<string name="screenshot_saved">Ảnh chụp màn hình đã được lưu vào {1}</string>
+		<string name="screenshot_err">Lỗi khi chụp ảnh màn hình!</string>
+		<string name="zip_wipe_cache">Một hoặc nhiều tệp ZIP yêu cầu xóa bộ nhớ đệm -- Đang xóa bộ nhớ đệm ngay bây giờ.</string>
+		<string name="and_sec_wipe_err">Không thể xóa android secure</string>
+		<string name="dalvik_wipe_err">Không thể xóa dalvik</string>
+		<string name="auto_gen">(Tự động tạo)</string>
+		<string name="curr_date">(Ngày hiện tại)</string>
+		<string name="backup_name_len">Tên sao lưu quá dài.</string>
+		<string name="backup_name_invalid">Tên sao lưu '{1}' chứa ký tự không hợp lệ: '{1}'</string>
+		<string name="no_real_sdcard">Thiết bị này không có thẻ SD thực! Hủy bỏ!</string>
+		<string name="cancel_sideload">Đang hủy ADB sideload...</string>
+		<string name="change_fs_err">Lỗi khi thay đổi hệ thống tệp.</string>
+		<string name="change_fs_hdr">Thay đổi Hệ thống Tệp</string>
+		<string name="theme_ver_err">Phiên bản chủ đề tùy chỉnh không khớp với phiên bản OrangeFox. Sử dụng chủ đề gốc.</string>
+		<string name="up_a_level">..</string>
+
+		<!-- new-->
+		<string name="sel_color">Chọn Màu</string>
+		<string name="s_color">Màu</string>
+		<string name="current_color">Hệ thống Tập tin:</string>
+		<string name="show_cpu_temp_bar">Hiển thị nhiệt độ CPU</string>
+		<string name="ts_inform">Thông tin</string>
+		<string name="sel_splash_png">Chọn hình ảnh PNG</string>
+		<string name="swipe_to_install">Vuốt để Cài đặt</string>
+		<string name="swipe_to_install_img">Vuốt để cài đặt Hình ảnh</string>
+		<string name="sel_image_type">Chọn Loại Hình ảnh!</string>
+		<string name="zip_add_queue">Thêm vào Hàng đợi</string>
+		<string name="part_fs_error_1">Tùy chọn phân vùng không</string>
+		<string name="part_fs_error_2">sẵn có cho phân vùng này!</string>
+		<string name="new_file_system">Hệ thống Tập tin Mới</string>
+		<string name="adb_sideload_opt">Tùy chọn Sideload</string>
+		<string name="about_hdr">Giới thiệu</string>
+		<string name="author">Tác giả</string>
+		<string name="credits">Lời cảm ơn</string>
+		<string name="version">Phiên bản</string>
+		<string name="set_password">Đặt Mật khẩu</string>
+		<string name="verifying_pas">Xác minh Mật khẩu</string>
+		<string name="dialog_offset_note">Chọn và nhập giá trị của bạn</string>
+		<string name="queue_no">#</string>
+		<string name="options_cptn">Tùy chọn</string>
+		<string name="flash_img_confirm">Cài đặt Tệp Hình ảnh</string>
+		<string name="also_wipes">Cũng xóa</string>
+		<string name="confirm_wipe_cptn">Xác nhận Xóa</string>
+		<string name="storage_cptn">Bộ nhớ</string>
+		<string name="enter_password_restore">Mật khẩu</string>
+		<string name="enter_password_cptn">Bảo mật</string>
+		<!-- added by fordownloads -->			
+		<string name="fordowns_sl">Đang bắt đầu Sideload...</string>
+		<string name="fordowns_to">đến</string>
+		<string name="dbg">Gỡ lỗi</string>
+		<string name="dbg_active">Menu Gỡ lỗi đã được kích hoạt!</string>
+		<string name="dbg_act">Hành động</string>
+		<string name="dbg_func">Chức năng</string>
+		<string name="dbg_set">Cài đặt</string>
+		<string name="dbg_page">Trang</string>
+		<string name="dbg_overlay">Lớp phủ</string>
+		<string name="fm_none">Không có</string>
+			
+		<string name="cust_navbar_noug">Nougat</string>
+		<string name="cust_navbar_cls">Cổ điển</string>
+		<string name="cust_navbar_accent">Nổi bật</string>
+		<string name="cust_navbar_black">Đen</string>
+		<string name="cust_navbar_white">Sử dụng nút màu trắng</string>
+		<string name="cust_navbar_gray">Sử dụng nút màu xám</string>
+			
+		<string name="fm_open">Mở như...</string>
+		<string name="fm_open_text">Tệp văn bản</string>
+		<string name="fm_open_ZIP">ZIP có thể Flash</string>
+			
+		<string name="fm_open_backup">Sao lưu</string>
+		<string name="fm_open_makezip">Nén</string>
+		<string name="fm_open_unpackzip">Giải nén</string>
+		<string name="fm_open_image">Hình ảnh có thể Flash</string>
+		<string name="arc_type">Loại tệp nén</string>
+		<string name="arc_lvl">Mức nén:</string>
+		<string name="arc_lvl_title">Nén</string>
+			
+		<string name="bkp_date">Thêm ngày</string>
+		<string name="bkp_gen">Tạo tên sao lưu</string>
+		<string name="bkp_gen_whilebkp">Tạo tên sao lưu khi sao lưu</string>
+		<string name="bkp_quick">Sao lưu Nhanh</string>
+		<string name="bkp_clear">Xóa</string>
+			
+		<string name="language_cptn">Ngôn ngữ</string>
+		<string name="cust_oth">Các mục khác</string>
+	
+		<string name="settings_general">Thiết lập chung</string>
+		<string name="settings_ui">Tùy chỉnh</string>
+		<string name="settings_screen">Màn hình</string>
+		<string name="settings_time">Khu vực &amp; Ngôn ngữ</string>
+		
+		<string name="lang_wait">Vui lòng đợi...</string>
+			
+		<string name="settings_ui_status">Thanh trạng thái</string>
+		<string name="settings_ui_battery">Hiển thị biểu tượng pin</string>
+		<string name="settings_ui_style">Kiểu thanh điều hướng</string>
+		<string name="settings_ui_color">Màu nền thanh điều hướng</string>
+	
+		<string name="settings_backup_qbkp_custom">Sao lưu nhanh các phân vùng</string>
+			
+		<string name="settings_backup_name">Tên sao lưu</string>
+		<string name="settings_backup_name_user">Không thay đổi</string>
+		<string name="settings_backup_name_auto">Được xác định tự động</string>
+		<string name="settings_backup_name_auto_hide">Trong khi sao lưu</string>
+			
+		<string name="update_btn">Cập nhật</string>
+		<string name="include_kernel_log">Bao gồm Nhật ký Kernel</string>
+			
+		<string name="fm_books">Thư mục yêu thích</string>
+		<string name="fm_books_desc">Nhấn giữ để chỉnh sửa danh sách này</string>
+		<string name="fm_books_edit">Chỉnh sửa danh sách này...</string>
+		<string name="fm_books_desc_edit">Nhấn giữ để xóa mục</string>
+		<string name="fm_books_empty">(Trống)</string>
+			
+		<string name="fm_mkdir">Tạo thư mục</string>
+		<string name="fm_mkdir_folder">Tên thư mục</string>
+			
+		<string name="fm_path">Nhập đường dẫn</string>
+		<string name="fm_path2">Đường dẫn</string>
+			
+		<string name="no_os_title">Bạn có chắc không?</string>
+		<string name="no_os_subtitle">Phân vùng hệ thống trống</string>
+			
+		<string name="no_os1">Chưa cài hệ điều hành! Bạn có chắc muốn</string>
+		<string name="no_osrb">khởi động lại không?</string>
+		<string name="no_ospo">tắt máy không?</string>
+		<string name="no_osrb_recovery">khởi động lại vào recovery không?</string>
+		<string name="no_osrb_boot">khởi động lại vào bootloader không?</string>
+		<string name="no_osrb_down">khởi động lại vào chế độ tải xuống không?</string>
+		<string name="no_osrb_edl">khởi động lại vào chế độ EDL không?</string>
+			
+		<string name="areb_confirm">Xác nhận khởi động lại</string>
+		<string name="areb_noos">Khi không cài hệ điều hành</string>
+		<string name="opt_always">Luôn luôn</string>
+		<string name="otp_never">Không bao giờ</string>
+		
+		<string name="areb_off">Tắt</string>
+			
+		<string name="restoredialog_readonly">Tắt hộp thoại hệ thống chỉ đọc</string>
+		
+		<string name="offset_wrong">Lỗi sai vị trí!</string>
+			
+		<string name="new_key">Sử dụng kiểu mới cho bàn phím</string>
+			
+		<string name="bkp_nametitle">Tên sao lưu</string>
+		<string name="bkp_namesub">Nhập hoặc tạo tên sao lưu</string>
+			
+		<string name="goto_storage">Bộ nhớ</string>
+			
+		<string name="theme_apply">Đang cập nhật giao diện...</string>
+		<string name="theme_fonts">Phông chữ</string>
+		<string name="theme_style">Phong cách</string>
+		<string name="theme_accent">Màu sắc nổi bật</string>
+		<string name="theme_font_sel">Phông chữ chính</string>
+		<string name="theme_sec_font_sel">Phông chữ phụ</string>
+		
+		<string name="of">của</string>
+		
+		<string name="sph_sph">Màn hình khởi động</string>
+		
+		<string name="real">thực tế</string>
+		<string name="info">Thông tin</string>
+		<string name="time_m">Sửa đổi</string>
+		<string name="time_c">Thay đổi</string>
+		<string name="access">Truy cập</string>
+		<string name="fm_sums">Checksum</string>
+
+		<string name="use_fixed_font">Phông chữ monospace trong terminal</string>
+
+		<string name="adb_backup_pc1">Bản sao lưu này sẽ được</string>
+		<string name="adb_backup_pc2">lưu trên máy tính của bạn</string>
+
+		<string name="starting_aroma">Khởi động AromaFM...</string>
+		<string name="lang_set_wait">Đang thay đổi ngôn ngữ...</string>
+		<string name="installing_theme">Đang cài đặt chủ đề...</string>
+
+		<string name="menu_btn">Menu</string>
+
+		<string name="data_backup">Dữ liệu</string>
+		<string name="autostorage">Lưu trữ</string>
+		<string name="install_reboot">Khởi động lại sau %tw_sleep% giây</string>
+		<string name="cancel_reboot_btn">Hủy khởi động lại</string>
+		<string name="skip_digest_backup_chk" version="2">Tắt mã kiểm tra khi sao lưu.</string>
+		<string name="restore_digest_chk" version="2">Bật kiểm tra bản sao lưu.</string>
+		<string name="restore_enable_digest_chk" version="2">Bật mã kiểm tra các bản sao lưu</string>
+		<string name="decrypt_data_vold_os_missing">Thiếu tệp cần thiết để giải mã vold: {1}</string>
+		<string name="generating_digest1" version="2">Đang tạo mã kiểm tra</string>
+		<string name="generating_digest2" version="2"> * Đang tạo mã kiểm tra...</string>
+		<string name="digest_created" version="2"> * Mã kiểm tra đã được tạo.</string>
+		<string name="digest_error" version="2"> * Lỗi mã kiểm tra!</string>
+		<string name="digest_compute_error" version="2"> * Lỗi khi tính toán mã kiểm tra.</string>
+		<string name="verifying_digest" version="2">Đang xác minh mã kiểm tra</string>
+		<string name="skip_digest" version="2">Bỏ qua mã kiểm tra theo cài đặt người dùng.</string>
+		<string name="decrypt_success_nodev">Dữ liệu đã được giải mã thành công</string>
+		<string name="no_digest_found" version="2">Không tìm thấy tệp mã kiểm tra cho '{1}'. Vui lòng bỏ chọn "Kích hoạt mã kiểm tra" để khôi phục.</string>
+		<string name="digest_fail_match" version="2">Mã kiểm tra không khớp trên '{1}'.</string>
+		<string name="digest_matched" version="2">Mã kiểm tra đã khớp cho '{1}'.</string>
+		<string name="digest_check_skip" version="2">Mã kiểm tra bị bỏ qua</string>
+		<string name="digest_off" version="2">Tạo mã kiểm tra bị tắt</string>
+		<string name="invalid_zip_format">Định dạng tệp zip không hợp lệ!</string>
+		<string name="check_for_digest" version="2">Đang kiểm tra tính toàn vẹn của tệp...</string>
+		<string name="no_digest" version="2">Bỏ qua mã kiểm tra: không tìm thấy tệp mã kiểm tra</string>
+		<string name="digest_fail" version="2">Mã kiểm tra không khớp</string>
+		<string name="digest_match" version="2">Mã kiểm tra đã khớp</string>
+		<string name="password">Mật khẩu</string>
+		<string name="boot_slot">Slot khởi động</string>
+		<string name="boot_slot_a">SLOT A</string>
+		<string name="boot_slot_use_a">CHUYỂN SANG SLOT A</string>
+		<string name="boot_slot_b">SLOT B</string>
+		<string name="boot_slot_use_b">CHUYỂN SANG SLOT B</string>
+		<string name="changing_boot_slot">Đang thay đổi Slot khởi động</string>
+		<string name="changing_boot_slot_complete">Thay đổi Slot khởi động hoàn tất</string>
+		<string name="unable_set_boot_slot">Lỗi khi thay đổi bootloader boot slot thành {1}</string>
+		<string name="flash_ab_inactive">Flash zip A/B vào slot không hoạt động: {1}</string>
+		<string name="flash_ab_reboot">Để flash thêm zip, vui lòng khởi động lại recovery để chuyển sang slot đã cập nhật.</string>
+		<string name="flash_ab_both_slots">Flash vào cả hai slot</string>
+		<string name="ozip_decrypt_decryption">Đang bắt đầu giải mã Ozip...</string>
+		<string name="ozip_decrypt_finish">Giải mã Ozip hoàn tất!</string>
+		<string name="backup_storage_warning">Các bản sao lưu của {1} không bao gồm các tệp trong bộ nhớ trong như hình ảnh hoặc tải xuống.</string>
+		<string name="sha2_chk">Sử dụng SHA2 để băm</string>
+		<string name="disabled">Đã tắt</string>
+		<string name="enabled">Đã bật</string>
+		<string name="zip_compatible_err">Lỗi tương thích Zip Treble!</string>
+
+		<string name="unmount_sys_install">Gỡ gắn hệ thống trước khi cài ZIP</string>
+		<string name="unmount_system">Đang vô hiệu phân vùng System...</string>
+		<string name="unmount_system_err">Lỗi khi vô hiệu phân vùng System</string>
+
+		<string name="unmount_vendor_install">Vô hiệu phân vùng Vendor trước khi cài ZIP</string>
+		<string name="unmount_vendor">Đang vô hiệu phân vùng Vendor...</string>
+		<string name="unmount_vendor_err">Lỗi khi vô hiệu phân vùng Vendor</string>
+
+		<string name="fbe_wipe_msg">CẢNH BÁO: {1} đã bị xóa. Thiết bị FBE nên khởi động vào Android thay vì Recovery để đặt chính sách FBE ban đầu sau khi xóa.</string>
+		<string name="fastboot_button">Fastboot</string>
+		<string name="enable_adb">Kích hoạt ADB</string>
+		<string name="enable_fastboot">Kích hoạt Fastboot</string>
+		<string name="fastboot_console_msg">Đã vào chế độ Fastboot...</string>
+		<string name="data_media_fbe_msg">OrangeFox sẽ không tái tạo /data/media trên thiết bị FBE. Vui lòng khởi động vào ROM của bạn để tạo /data/media</string>
+
+		<!-- Console Messages -->
+		<string name="fox_incremental_ota_compatibility_chk">Đang xác minh chữ ký gói Incremental...</string>
+		<string name="fox_incremental_ota_compatibility_false">Gói Incremental không tương thích với ROM này!</string>
+		<string name="fox_incremental_ota_compatibility_true">Gói Incremental tương thích</string>
+		<string name="fox_incremental_ota_status_enabled">Trạng thái hỗ trợ gói Incremental: Đã bật</string>
+		<string name="fox_incremental_ota_status_disabled">Trạng thái hỗ trợ gói Incremental: Đã tắt</string>
+		<string name="fox_incremental_package_detected">Phát hiện gói Incremental '{1}'</string>
+		<string name="fox_survival_does_not_exist">Bảo toàn cập nhật OTA không tồn tại! Vui lòng flash ROM đầy đủ trước!</string>
+		<string name="fox_install_detecting">Đang phát hiện Gói hiện tại</string>
+		<string name="fox_install_standard_detected">- Phát hiện Gói tiêu chuẩn</string>
+		<string name="fox_install_miui_detected">- Phát hiện Gói Cập nhật MIUI</string>
+		<string name="fox_zip_have_bootloader">Cảnh báo: Phát hiện việc cài đặt lại bootloader do '{1}' yêu cầu.</string>
+		<string name="fox_no_space_ota_survival">Không đủ không gian trống trong bộ nhớ trong để tạo Bảo toàn cập nhật OTA.</string>
+		<string name="fox_incremental_ota_res">OTA_RES -- hoàn tất!</string>
+		<string name="fox_incremental_ota_res_run">Đang chạy quy trình OTA_RES...</string>
+		<string name="fox_incremental_ota_bak_run">Đang chạy quy trình OTA_BAK...</string>
+		<string name="fox_incremental_ota_bak">OTA_BAK -- hoàn tất!</string>
+		<string name="fox_internal_fatal_i1">OrangeFox: LỖI NGHIÊM TRỌNG! Bạn không thể sao lưu Bộ nhớ trong lên chính nó!</string>
+		<string name="fox_internal_fatal_i2">Bạn PHẢI thay đổi địa điểm sao lưu sang MicroSD/USB-OTG.</string>
+		<string name="fox_internal_q1">OrangeFox - Bộ nhớ trong - hãy cẩn thận!</string>
+
+		<string name="copy_kernel_log">Đã sao chép nhật ký kernel vào {1}</string>
+
+		<string name="of_run_process">Đang bắt đầu quy trình '{1}'</string>
+		<string name="of_run_process_fail">Không thể hoàn thành quy trình '{1}'</string>
+		<string name="of_run_process_done">Đã hoàn thành quy trình '{1}'</string>
+		<string name="of_dm_verity">Đã vá DM-Verity thành công</string>
+		<string name="of_dm_verity_off">DM-Verity chưa được kích hoạt</string>
+		<string name="of_encryption">Đã vá mã hóa thành công</string>
+		<string name="of_encryption_off">Mã hóa chưa được kích hoạt</string>
+		<string name="of_fstab">Phát hiện fstab: '{1}'</string>
+
+		<string name="install_remlatest">Xóa mới nhất</string>
+		
+		<string name="backups_remove_all">Tất cả sao lưu</string>
+		<string name="backups_remove">Xóa</string>
+		
+		<!-- OrangeFox Recovery - Pie Door theme -->
+
+		<string name="unpack">Giải nén</string>
+		<string name="repack">Đóng gói</string>
+
+		<string name="fox_save_load_aromafm_config_chk">Lưu/Tải cài đặt AromaFM</string>
+		<string name="search_help">Tìm kiếm tệp và thư mục...</string>
+
+		<string name="reboot_to_take_effect">Khởi động lại để các thay đổi có hiệu lực</string>
+		<string name="fox_modules_hdr">Phần mở rộng Fox</string>
+		<string name="fox_modules_inst">Cài đặt phần mở rộng</string>
+		<string name="backup_short_hdr">Sao lưu mới</string>
+		<string name="backups_wat">Sao lưu ở đâu?</string>
+
+		<string name="module_install">Cài đặt</string>
+		<string name="module_uninstall">Gỡ cài đặt</string>
+		<string name="remove_of_files">Xóa tệp OrangeFox</string>
+		<string name="module_initd">Bật hỗ trợ init.d</string>
+		<string name="module_of_set">Sao lưu cài đặt OrangeFox</string>
+		<string name="module_cam">Bật Camera2API</string>
+		<string name="module_pass">Xóa mật khẩu</string>
+		<string name="module_remove_survival">Xóa script bảo toàn cập nhật</string>
+		<string name="fox_files_not_exist_1">Tệp không tồn tại!</string>
+		<string name="fox_files_not_exist_2">Vui lòng cài đặt lại Recovery</string>
+		<string name="fox_files_not_exist_3">sử dụng tệp zip cài đặt.</string>
+
+		<!-- Customization -->
+		<string name="cust_new_ota_screen">Hiển thị ít chi tiết khi cập nhật OTA</string>
+		<string name="fm_icons_simple">Tăng kích thước biểu tượng tệp</string>
+		<string name="theme_engine_update">Áp dụng thay đổi và tải lại?</string>
+		<string name="theme_engine_reset">Đặt lại chủ đề và tải lại?</string>
+		<string name="apply_btn">Áp dụng</string>
+		<string name="theme_hdr">Chủ đề</string>
+
+		<string name="font_small">Nhỏ</string>
+		<string name="font_norm">Bình thường</string>
+		<string name="font_big">Lớn</string>
+		<string name="font_size">Kích thước phông chữ</string>
+		<string name="cust_autoapply">Áp dụng chủ đề không cần xác nhận</string>
+		<string name="cust_expand_list">Tự động mở rộng danh sách</string>
+
+		<string name="status_battery_style">Kiểu pin</string>
+		<string name="status_battery_circle">Hình tròn</string>
+		<!-- Status bar -->
+		<string name="status_clock_pos">Vị trí đồng hồ</string>
+		<string name="status_clock_left">Trái</string>
+		<string name="status_clock_center">Giữa</string>
+		<string name="status_clock_right">Phải</string>
+		<string name="dark_title">Làm tiêu đề tối hơn</string>
+		<string name="separate_status">Làm thanh trạng thái tối hơn</string>
+		<string name="noshadow_title">Hiển thị bóng cho tiêu đề thanh trạng thái</string>
+		<string name="hide_notch">Ẩn tai thỏ</string>
+		<!-- NavBar -->
+		<string name="navbar_title">Thanh điều hướng</string>
+		<string name="navbar_onscreen">Bật NavBar</string>
+		<string name="show_slideout">Hiển thị nút console</string>
+		<string name="dark_nav">Tối</string>
+		<!-- Keyboard -->
+		<string name="keyboard_title">Bàn phím</string>
+		<string name="keyboard_newstyle">Phong cách mới</string>
+		<string name="keyboard_nums">Hiện hàng phím số</string>
+		<string name="key_swipe">Vuốt trên bàn phím để xóa tất cả</string>
+		<!-- Lockscreen -->
+		<string name="lockscreen_unlock">Mở khóa</string>
+		<string name="lockscreen_title">Màn hình khóa</string>
+		<string name="lockscreen_style">Phong cách màn hình khóa</string>
+		<string name="lockscreen_clock">Đồng hồ</string>
+		<string name="lockscreen_icon">Biểu tượng</string>
+		<string name="lockscreen_btn">Thay thanh điều chỉnh bằng nút</string>
+		<string name="lockscreen_info">Hiển thị thông tin pin và CPU</string>
+		<string name="lockscreen_quicklock">Chạm vào ổ khóa để khóa màn hình</string>
+
+		<!-- OTA working page -->
+		<string name="ota_console_title">Đang cài đặt OTA...</string>
+		<string name="ota_simple_title">Đang cập nhật...</string>
+		<string name="ota_simple_log_btn">Nhật ký</string>
+
+		<string name="battery">Pin</string>
+
+		<!-- Pass -->
+		<string name="pass_gk">Mật khẩu cử chỉ</string>
+		<string name="pass_classic">Mật khẩu văn bản</string>
+		<string name="pass_dis">Vô hiệu hóa mật khẩu</string>
+		<string name="pass_pin">Mã PIN</string>
+
+		<string name="locked_info_1">Recovery được bảo vệ chống lại</string>
+		<string name="locked_info_2">truy cập trái phép.</string>
+		<string name="locked_info_3">Để sử dụng các tính năng chính của recovery</string>
+		<string name="locked_info_4">bạn cần nhập mật khẩu của mình.</string>
+		<string name="locked_info_4_gk">bạn cần vẽ cử chỉ mật khẩu của mình.</string>
+
+		<string name="new_pass_info_1">Nhập mật khẩu mới để</string>
+		<string name="new_pass_info_1_gk">Vẽ cử chỉ mật khẩu mới để bảo vệ</string>
+		<string name="new_pass_info_2">OrangeFox khỏi truy cập trái phép</string>
+		<string name="new_pass_info_3">.</string>
+		<string name="new_pass_info_4">Bạn cần nhập mật khẩu của mình hai lần.</string>
+		<string name="new_pass_info_4_gk">Bạn cần vẽ cử chỉ mật khẩu hai lần.</string>
+		<string name="new_pass_info_4_2">Nhập lại mật khẩu của bạn.</string>
+		<string name="new_pass_info_4_2_gk">Vẽ lại cử chỉ mật khẩu.</string>
+
+		<string name="pass_page_block">Phương thức khóa hiện tại</string>
+		<string name="pass_page_block_inf1">Bạn có thể ngủ ngon hơn khi biết</string>
+		<string name="pass_page_block_inf2">rằng bạn đang được bảo vệ.</string>
+		<string name="pass_page_select">Chọn loại mật khẩu</string>
+
+		<!-- Utilities -->
+		<string name="more">Xem thêm...</string>
+		<string name="hide">Ẩn</string>
+		<string name="part_menu_hdr">Quản lý phân vùng</string>
+		<string name="run_adb_startup">Chạy ADB khi khởi động</string>
+
+		<!-- MMGUI -->
+		<string name="mm_module_active">Đang hoạt động</string>
+		<string name="mm_module_mount">Tự động gắn</string>
+		<string name="mm_modules">Các module</string>
+		<string name="mm_ver">Phiên bản Magisk</string>
+		<string name="mm_mod_ver">Phiên bản Module</string>
+		<string name="mm_remove">Gỡ bỏ module sau khi khởi động lại</string>
+		<string name="mm_remove_hint">Khởi động lại để thay đổi có hiệu lực</string>
+		<string name="mm_remove_reboot">Khởi động lại</string>
+		<string name="magisk_not_found">Không tìm thấy Magisk!</string>
+		<string name="magisk_not_found_1">Bạn có muốn vào tiện ích Fox</string>
+		<string name="magisk_not_found_2">và cài đặt Magisk đã có sẵn?</string>
+		<string name="magisk_not_found_3"></string>
+
+		<!-- MIUI OTA -->
+		<string name="fox_ota_settings">Cài đặt OTA</string>
+		<string name="fox_miui_ota_on">Bật OTA</string>
+		<string name="fox_ota_on">Bật OTA</string>
+		<string name="fox_patch_rom">Sửa chữa ROM</string>
+		<string name="fox_ota_lite">OTA &amp; ROM</string>
+
+		<!-- About -->
+		<string name="abt_maintainer">Bảo trì</string>
+		<string name="abt_fd">Thiết kế &amp; Tạo giao diện</string>
+		<string name="abt_bork">CEO, Site &amp; UI</string>
+		<string name="abt_dj">Xây dựng Hệ thống, người bảo trì</string>
+		<string name="abt_front">Nhà phát triển giao diện</string>
+		<string name="abt_back">Nhà phát triển hệ thống phía sau</string>
+		<string name="abt_device">Thiết bị</string>
+		<string name="version_twrp">Phiên bản OrangeFox</string>
+		<string name="build_type">Loại bản dựng</string>
+		<string name="abt_credits">Ghi công</string>
+		<string name="abt_trans">Dịch giả</string>
+		<string name="abt_changes">Lịch sử thay đổi</string>
+		<string name="abt_main_shrt">Bảo trì</string>
+		<string name="welcome_msg">Chào mừng bạn đến với OrangeFox!</string>
+		<string name="welcome_msg2">!-- Nếu thông điệp chào mừng quá dài trong ngôn ngữ của bạn, hãy sử dụng chuỗi này --></string>
+
+		<!-- Symlink -->
+		<string name="symlink_dir_name">Liên kết đến thư mục</string>
+		<string name="symlink_file_name">Liên kết đến tệp</string>
+		<string name="symlink_broken_name">Liên kết bị hỏng</string>
+		<string name="symlink_folder">Mở thư mục thực tế</string>
+		<string name="symlink_file">Mở tệp thực tế</string>
+
+		<!-- Files -->
+		<string name="files_show_hidden">Hiển thị tệp ẩn</string>
+		<string name="files_auto_open">Tự động nhận diện loại tệp</string>
+		<string name="file_read">Đang đọc tệp: {1}</string>
+		<string name="file_read_error">Không thể mở tệp!</string>
+		<string name="file_read_error_size">Tệp quá lớn (lớn hơn 1.5MB)!</string>
+		<string name="file_read_error_bin">Không thể đọc tệp nhị phân!</string>
+		<string name="subs_wipe">Xóa Substratum Overlays</string>
+		<string name="sort_ex_all">Tất cả tệp</string>
+		<string name="sort_ex_img">Tệp IMG</string>
+		<string name="sort_ex_zip">Tệp ZIP</string>
+		<string name="aroma_help">Nhấn lại để bắt đầu AromaFM...</string>
+
+		<!-- this error will shown when recovery cannot create backup folder
+		 -->
+		<string name="backups_rw_error_1">Lưu trữ đã được gắn</string>
+		<string name="backups_rw_error_2">dưới chế độ chỉ đọc!</string>
+
+		<!-- App mgr -->
+		<string name="appmgr_apps">Ứng dụng</string>
+		<string name="appmgr_title">Quản lý Ứng dụng</string>
+
+		<!-- performance -->
+		<string name="perf_title">Hiệu suất</string>
+		<string name="perf_conf_mode">Chế độ hiệu suất recovery</string>
+		<string name="perf_conf_balance">Cân bằng</string>
+		<string name="perf_conf_high">Hiệu suất cao</string>
+		<string name="perf_conf_batt">Tiết kiệm năng lượng</string>
+
+		<string name="fox_led_title">Cài đặt đèn LED</string>
+		<string name="fox_use_green_led">Sử dụng đèn LED màu xanh</string>
+		<string name="fox_boot_fastcharge">Bật sạc nhanh</string>
+
+		<!-- OTA -->
+		<string name="fox_ota_msg_ready">Bạn đã sẵn sàng nhận cập nhật!</string>
+		<string name="fox_ota_msg_custom">Bật chế độ ROM tùy chỉnh</string>
+		<string name="fox_ota_msg_reflash">Vui lòng cài lại ROM đầy đủ!</string>
+		<string name="fox_advanced_stock_recovery">Chặn khôi phục gốc mạnh mẽ</string>
+		<string name="fox_support_miui_ota_chk">Hỗ trợ OTA</string>
+		<string name="fox_include_system_survival_chk">Bảo toàn hệ thống cập nhật OTA</string>
+		<string name="fox_verify_incremental_ota_signature_chk">Xác thực chữ ký OTA từng phần</string>
+		<string name="fox_dmverity_chk">Vô hiệu hóa DM-Verity</string>
+		<string name="fox_forced_encryption_chk">Vô hiệu hóa Mã hóa bắt buộc</string>
+		<string name="FOX_DISABLE_OTA_AUTO_REBOOT_chk">Tắt tự khởi động sau khi cài OTA</string>
+		<string name="of_ota_reboot_disabled">Cập nhật OTA hoàn tất. Bạn đã vô hiệu hóa tự động khởi động lại. Trả quyền điều khiển lại cho bạn.</string>
+
+		<!-- Wipe format moved -->
+		<string name="wipe_format_moved_info1">Lưu ý: Định dạng Dữ liệu đã được chuyển đến</string>
+		<string name="wipe_format_moved_info2">Trang Quản lý phân vùng.</string>
+
+		<!-- R11 -->
+		<string name="gst_title">Điều hướng bằng cử chỉ</string>
+		<string name="gst_enable_all">Kích hoạt cử chỉ</string>
+		<string name="gst_back">Cử chỉ quay lại</string>
+		<string name="gst_back_left">Từ trái</string>
+		<string name="gst_back_right">Từ phải</string>
+		<string name="gst_console_enable">Vuốt trạng thái mở bảng điều khiển</string>
+		<string name="gst_navbar_error">Một số cài đặt bị ẩn.</string>
+		<string name="gst_navbar_error_2">Vô hiệu hóa cử chỉ để hiển thị.</string>
+
+		<string name="in">vào</string>
+		<string name="con_digest_start">[BẮT ĐẦU TẠO TÓM TẮT]</string>
+		<string name="con_digest_error">Danh sách phân vùng trống!</string>
+		<string name="con_digest_cancel">Đang hủy...</string>
+		<string name="con_digest_complete">[TẠO TÓM TẮT HOÀN THÀNH TRONG {1} GIÂY]</string>
+		<string name="digest_btn">Tạo Tóm tắt</string>
+		<string name="digest_creating">Đang tạo Tóm tắt...</string>
+		
+		<!-- 124/14354 files, 20/5412MB (5%)  -->
+		<string name="file_progress_v2">%llu/%llu tệp,</string>
+		<string name="size_progress_v2">%llu/%llu MB (%i%%)</string>
+
+		<string name="navpan_new_design">Thiết kế bảng điều hướng mới</string>
+		<string name="full_partition_list">Hiển thị các phân vùng bổ sung để sao lưu</string>
+
+		<string name="data_decrypted_reload">Giải mã thành công!</string>
+
+		<string name="install_queue_magisk_btn">Thêm Magisk</string>
+		<string name="hint_ffiles_missing">Bạn đã mất thứ gì đó?</string>
+		<string name="hint_ffiles_missing1">Không có Tiện ích Fox</string>
+		<string name="hint_ffiles_missing2">OrangeFox không thể truy cập</string>
+		<string name="hint_ffiles_missing3">Thử bật phân vùng /data hoặc cài lại</string>
+		<string name="hint_ffiles_missing4">OrangeFox nếu /data đã bị xóa.</string>
+		<string name="hint_ffiles_missing5"><!-- Sử dụng dòng này nếu gợi ý này quá dài trong ngôn ngữ của bạn --></string>
+		<string name="hide_btn">Ẩn gợi ý</string>
+
+		<string name="info_dir_empty">Thư mục trống</string>
+		<string name="info_dir_empty_hidden">Một số tệp bị ẩn</string>
+
+		<string name="navbar_style_line">Kẻ dòng</string>
+		<string name="accent_in_titles">Văn bản nhấn mạnh trong tiêu đề</string>
+
+		<string name="backup_quick_info1">Các phân vùng này sẽ được chọn</string>
+		<string name="backup_quick_info2">sau khi nhấn nút "Sao lưu nhanh"</string>
+		<string name="mbyte">MB</string>
+		<string name="mbytesec">MB/s</string>
+		<string name="backup_av_files">Tệp</string>
+		<string name="backup_av_img">Ảnh</string>
+		<string name="backup_exp_size">Kích thước dự kiến</string>
+		<string name="time_minute">phút</string>
+		<string name="backup_av">Thời gian trung bình</string>
+		<string name="backup_av1">Bạn có muốn thiết lập lại giá trị tốc độ</string>
+		<string name="backup_av2">về mặc định không? Thời gian trung bình</string>
+		<string name="backup_av3">dự đoán sẽ kém chính xác hơn.</string>
+
+		<string name="cust_line_white">Sử dụng đường trắng</string>
+		<string name="cust_line_gray">Sử dụng đường xám</string>
+		
+		<!-- Updated slot selection -->
+		<string name="slot_show">Chuyển đổi slot</string>
+		<string name="slot_switch_a">Chuyển sang slot A</string>
+		<string name="slot_switch_b">Chuyển sang slot B</string>
+		<string name="slot_active_a">Slot A đang hoạt động</string>
+		<string name="slot_active_b">Slot B đang hoạt động</string>
+
+		<string name="theme_font_primary_tab">Phông chính</string>
+		<string name="theme_font_secondary_tab">Phông phụ</string>
+		<string name="theme_font_size_tab">Kích thước</string>
+		<string name="theme_font_select">Chọn phông chữ</string>
+
+		<string name="theme_fweight">Độ dày phông chữ</string>
+		<string name="theme_fweight_norm">Mặc định</string>
+		<string name="theme_fweight_reg">Thông thường</string>
+		<string name="theme_fweight_med">Vừa</string>
+
+		<string name="swipe_up_to_unlock">Vuốt lên từ dưới màn hình để Mở khóa</string>
+
+		<string name="spl_background">Màu nền</string>
+		<string name="spl_logo">Logo</string>
+		<string name="spl_white">Trắng</string>
+		<string name="spl_black">Đen</string>
+		<string name="spl_night">Đêm</string>
+		<string name="spl_orange">Cam</string>
+		<string name="spl_accent">Màu nhấn</string>
+		<string name="spl_image">Hình nền</string>
+		<string name="spl_del_img">Xóa hình nền</string>
+		<string name="hidden">Ẩn</string>
+		<string name="spl_ofr">Nhãn "OrangeFox Recovery"</string>
+
+		<string name="batch_selected">%of_batch_count% đã chọn</string>
+		<string name="batch_title">Thao tác nhóm</string>
+		<string name="batch_files_folders">Tệp &amp; Thư mục</string>
+
+		<string name="fm_action_folder">Thao tác trên thư mục này</string>
+
+		<string name="tap_to_generate">Chạm vào đây để tính toán</string>
+		<string name="calc_checksum">Đang tính toán...</string>
+		<string name="cant_access_data">Không thể truy cập dữ liệu. Vui lòng bật phân vùng dữ liệu thủ công.</string>
+
+		<string name="backup_pass_wait">Đang thay đổi mật khẩu...</string>
+		<string name="pass_encrypt_error1">Không thể thay đổi mật khẩu</string>
+		<string name="pass_encrypt_error2">khi Dữ liệu đã được mã hóa!</string>
+
+		<string name="backup_encrypt_data_info">Chỉ phân vùng Dữ liệu sẽ được mã hóa</string>
+
+		<!-- Missing functions from TWRP -->
+		<string name="img_advanced">Cài đặt Ramdisk</string>
+		<string name="img_type">Loại ảnh</string>
+		<string name="img_select_type">Chọn loại ảnh</string>
+		<string name="repack_overwrite_warning">Nếu thiết bị đã được root trước đó, root đã bị ghi đè và sẽ cần phải cài đặt lại.</string>		
+
+		<string name="repack_backup_first">Sao lưu ảnh hiện tại trước</string>
+
+		<string name="unpack_error">Lỗi khi giải nén ảnh.</string>
+		<string name="repack_error">Lỗi khi đóng gói lại ảnh.</string>
+		<string name="unpacking_image">Đang giải nén {1}...</string>
+		<string name="repacking_image">Đang đóng gói lại {1}...</string>
+
+		<string name="fix_recovery_loop">Sửa lỗi Bootloop Recovery</string>
+		<string name="fixing_recovery_loop">Đang sửa lỗi Bootloop Recovery...</string>
+		<string name="fix_recovery_loop_complete">Đã sửa lỗi Bootloop Recovery</string>
+		<string name="fixing_recovery_loop_patch">Đang vá kernel...</string>
+		<string name="fix_recovery_loop_patch_error">Lỗi khi vá kernel.</string>
+		<string name="try_app">Hãy thử ứng dụng của chúng tôi!</string>
+		<string name="try_app_2">Kiểm tra bản cập nhật recovery qua ứng dụng</string>
+		<string name="try_app_3">mới của chúng tôi!</string>
+		<string name="try_app_4">Link tải:</string>
+		<string name="try_app_5">https://app.orangefox.tech</string>
+		<string name="fm_edit_file">Chỉnh sửa tệp trong nano</string>
+		<string name="fm_open_terminal_btn">Mở Terminal tại đây</string>
+		<string name="batch_progress">Tiến trình</string>
+
+		<!-- R11.1 -->
+		<string name="custom_settings">Cài đặt tùy chỉnh cho %fox_compatibility_fox_device%</string>
+		<string name="custom_settings_title">Cài đặt tùy chỉnh</string>
+		<string name="tap_to_show">Chạm để hiển thị</string>
+
+		<!-- Android Rescue Party trigger -->
+		<string name="rescue_party0">Kích hoạt Android Rescue Party! Các giải pháp có thể là:</string>
+		<string name="rescue_party1"> 1. Xóa bộ nhớ cache</string>
+		<string name="rescue_party2"> 2. Định dạng dữ liệu</string>
+		<string name="rescue_party3"> 3. Cài lại ROM của bạn.</string>
+		<string name="rescue_party4">Vấn đề được báo cáo là:</string>
+
+		<string name="restore_system_context">Không thể lấy ngữ cảnh mặc định cho {1} -- Android có thể không khởi động được.</string>
+
+		<string name="batch_progress">Tiến trình</string>
+		<string name="recovery_busy">Recovery đang bận</string>
+		<string name="status_delimeter">Dấu phân cách thanh trạng thái</string>
+		<string name="status_delimeter_shadow">Bóng</string>
+
+		<string name="mount_vab_partitions">Các thiết bị trên super có thể không bật phân vùng cho đến khi khởi động lại recovery.</string>
+		<string name="merges_snapshots">Hợp nhất các snapshot</string>
+		<string name="merging_snapshots">Đang hợp nhất các snapshot...</string>
+		<string name="merging_snapshots_complete">Đã hợp nhất các snapshot</string>
+
+		<string name="unmap_super_devices">Bỏ cấu hình thiết bị Super</string>
+		<string name="unmapping_super_devices">Đang bỏ cấu hình thiết bị Super...</string>
+		<string name="unmap_super_devices_complete">Đã bỏ cấu hình tất cả thiết bị Super</string>
+
+		<string name="auto_reflashtwrp_chk">Cài lại OrangeFox sau khi flash ROM</string>
+		<string name="modified_ramdisk_error">Tệp ramdisk đã bị sửa đổi, không thể tạo ramdisk để flash. Hãy fastboot boot OrangeFox và thử lại tùy chọn này hoặc quay lại mục Files và cài tệp img làm Ramdisk Recovery bằng nút Cài đặt Ramdisk.</string>
+		<string name="create_ramdisk_error">Không thể tạo ramdisk để flash.</string>
+		<string name="reflash_twrp">Flash OrangeFox hiện tại</string>
+		<string name="reflashing_twrp">Đang flash OrangeFox...</string>
+		<string name="reflash_twrp_complete">Đã flash OrangeFox xong</string>
+	</resources>
+</language>
